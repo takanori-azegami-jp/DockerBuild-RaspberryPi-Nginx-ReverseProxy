@@ -9,7 +9,7 @@ RaspberryPi(64bit)にDockerでPostgreSQLサーバを構築
 
 ## Dockerコマンド
 ```bash
-# Docker-compose実行
+# Docker-composeビルド
 $ docker-compose up -d
 
 # Docker コンテナ確認
@@ -21,10 +21,10 @@ $ docker images
 # Docker コンテナの中に入る
 $ docker exec -it [コンテナID] bash
 
-# dokcer-composeのリビルド
-$ docker-compose up -d --build  --force-recreate
+# 起動しているコンテナをdokcerイメージから再ビルド
+$ docker-compose up -d --build --force-recreate
 
-# dokcer-composeの一括削除（滅びの呪文）
+# dokcer-composeでの一括削除（滅びの呪文）
 $ docker-compose down --rmi all --volumes --remove-orphans
 ```
 

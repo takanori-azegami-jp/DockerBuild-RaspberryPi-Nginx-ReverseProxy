@@ -28,13 +28,11 @@ $ docker-compose up -d --build --force-recreate
 $ docker-compose down --rmi all --volumes --remove-orphans
 ```
 
-
-
-
-
-リバースプロキシとWebサーバ（犬、猫の2台）がローカルに立ち上がる。
-ブラウザから `http://localhost/dog` もしくは `http://localhost/cat` にアクセス。
-
+## ブラウザからのアクセス方法
+```js
+http://[サーバIP]:8080/dog
+http://[サーバIP]:8080/cat
+```
 
 ## 参考サイト
 - [zawawahoge/reverse-proxy](https://github.com/zawawahoge/reverse-proxy)

@@ -30,9 +30,9 @@ $ docker-compose down --rmi all --volumes --remove-orphans
 
 ## ブラウザからのアクセス方法
 ```js
-http://[サーバIP]:8080/dog
-http://[サーバIP]:8080/cat
+http://localhost/dog
+http://localhost/cat
 ```
 
 ## 参考サイト
-- [zawawahoge/reverse-proxy](https://github.com/zawawahoge/reverse-proxy)
+- [実践編ーDockerを使ってnginxでリバースプロキシを立ててみる](https://qiita.com/zawawahoge/items/d58ab6b746625e8d4457)

@@ -1,9 +1,9 @@
 version: '3.8'
 services:
   reverseproxy:
-  build:
-    context: ./
-    dockerfile: dockerfile
+    build:
+      context: ./
+      dockerfile: dockerfile
     container_name: reverseproxy
     hostname: reverseproxy
     tty: true
@@ -17,9 +17,9 @@ services:
       - reverseproxy:/var/log/nginx
 
   dog-server:
-  build:
-    context: ./
-    dockerfile: dockerfile
+    build:
+      context: ./
+      dockerfile: dockerfile
     container_name: dog-server
     hostname: dog-server
     tty: true
@@ -32,9 +32,9 @@ services:
       - ./dog-server:/usr/share/nginx/html
 
   cat-server:
-  build:
-    context: ./
-    dockerfile: dockerfile
+    build:
+      context: ./
+      dockerfile: dockerfile
     container_name: cat-server
     hostname: cat-server
     tty: true

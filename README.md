@@ -30,9 +30,10 @@ $ docker-compose down --rmi all --volumes --remove-orphans
 
 ## ブラウザからのアクセス方法
 ```js
-http://localhost/dog
-http://localhost/cat
+http://[ホストPCのipアドレス]/dog
+http://[ホストPCのipアドレス]/cat
 ```
 
 ## 参考サイト
 - [実践編ーDockerを使ってnginxでリバースプロキシを立ててみる](https://qiita.com/zawawahoge/items/d58ab6b746625e8d4457)
+- [RaspberryPiにDockerを使ってNginxでリバースプロキシを動かしてみた](https://qiita.com/haytok/items/6f9ddf5978359779bb57?utm_source=pocket_mylist)

@@ -1,4 +1,4 @@
-# DockerBuild-RaspberryPi-Nginx-ReverseProxy
+# docker-rpi-nginx-reverseproxy
 
 nginxでローカルでリバースプロキシを立てる
 RaspberryPi(64bit)にDockerでPostgreSQLサーバを構築
